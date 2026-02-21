@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("DevOps GHCR Demo App Running 🚀");
+  res.send("DevOps GHCR Demo App Running on 3000 port 🚀");
 });
 
 app.get("/add", (req, res) => {
